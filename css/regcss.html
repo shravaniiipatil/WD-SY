@@ -1,0 +1,115 @@
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<style>
+        .form-box {
+            width: 500px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff8dc; 
+            border: 2px solid #8b4513; 
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            font-family: Arial, sans-serif;
+        }
+
+        h2 {
+            text-align: center;
+            color: #5c4033;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        fieldset {
+            border: 1px solid #8b4513;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        label {
+            font-weight: bold;
+        }
+    </style>
+<body bgcolor="#f5f5dc">
+<h2 style="color:#800000;"><b>Registration Form</b></h2>
+<hr>
+<form action="success.html">
+<p><b>
+<label>User Name:</label></b><br>
+<input type="text" placeholder="Enter your full name">
+</p>
+<p>
+<b><label>Email ID:</label></b><br>
+<input type="email" placeholder="Enter your email">
+</p>
+<p>
+<b><label>Mobile Number:</label></b><br>
+<input type="text" placeholder="Enter your mobile number">
+</p>
+<p>
+<b><label>Address:</label></b><br>
+<textarea id="address" rows="3" cols="35" placeholder="Enter your full address"></textarea>
+</p>
+<fieldset>
+<legend><b>Gender</b></legend>
+<input type="radio">Male
+<input type="radio">Female
+</fieldset>
+<p><label><b>College Name:</b></label><br>
+<select>
+<option value="" disabled selected>Select your college</option>
+<option>D.Y. Patil College of Engineering & Technology</option>
+<option>Government College of Engineering</option>
+<option>Kolhapur Institute of Technology</option>
+<option>Tatyasaheb Kore Institute of Engineering and Technology</option>
+<option>Rajarambapu Institute of Technology</option>
+<option>Sharad Institute of Technology</option>
+<option>Bharati Vidyapeeth College of Engineering</option>
+</select><br></p>
+<p><label><b>Branch:</b></label><br>
+<select>
+<option value="" disabled selected>Select your branch</option>
+<option>Computer Science and Engineering</option>
+<option>Artificial Intelligence and Machine Learning</option>
+<option>Data Science</option>
+<option>Information Technology</option>
+<option>Mechanical</option>
+<option>ENTC</option>
+<option>Civil</option>
+<option>Chemical</option>
+</select><br></p>
+<fieldset>
+<legend><b>Programming Skills</b></legend>
+<p><label>Programming Skills</label>
+<input type= checkbox>C
+<input type= checkbox>CPP
+<input type= checkbox>Python
+<input type= checkbox>Java<br></p>
+</fieldset>
+<p>
+<button type="submit" style="background-color: green; color: white;">
+<b>Register</b>
+</button>
+</p>
+</form>
+</body>
+</html>
